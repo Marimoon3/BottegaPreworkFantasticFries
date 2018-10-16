@@ -14,6 +14,7 @@ body {
   align-items: center;
   padding: 60px 100px;
 }
+
 .left-column {
   display: flex;
   align-items: center;
@@ -27,7 +28,10 @@ body {
   font-size: 2em;
 }
 
-.contact-hours-wrapper {
+.left-column > .contact-hours-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
 }
 
 .address-wrapper {
